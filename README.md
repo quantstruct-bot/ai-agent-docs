@@ -19,30 +19,45 @@ AI agents are autonomous entities that can perceive their environment and take a
 
 ## Getting Started
 
-To get started with AI agents, you will need to have a basic understanding of artificial intelligence principles and programming skills. Follow the instructions below to set up your environment.
+To get started with AI agents, you will need a basic understanding of artificial intelligence principles and programming skills. Follow the instructions below to set up your environment.
 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/quantstruct-bot/ai-agent-docs.git
    cd ai-agent-docs
    ```
 2. Install the required dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage
 
-After installing the necessary dependencies, you can start using the AI agents. Refer to the examples section for practical implementations.
+After installing the necessary dependencies, you can start using the AI agents. Refer to the examples section for practical implementations and usage patterns.
 
-## Examples
+### Basic Usage Example
 
-Here are some examples of how to use AI agents:
+```python
+from ai_agent import Agent
 
-- Example 1: Basic AI Agent
-- Example 2: Advanced AI Agent with Reinforcement Learning
+agent = Agent()
+result = agent.run(task="Sort the following numbers: [4, 2, 7, 1]")
+print(result)
+```
+
+### Advanced Usage Example
+
+```python
+from ai_agent import AdvancedAgent
+
+agent = AdvancedAgent(memory=True, learning_rate=0.01)
+response = agent.solve(problem="Find the shortest path in a graph")
+print(response)
+```
 
 ## API Reference
 
@@ -51,6 +66,7 @@ The API reference provides detailed information about the functions and classes 
 ## Contributing
 
 We welcome contributions to this documentation! If you would like to contribute, please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and commit them.
