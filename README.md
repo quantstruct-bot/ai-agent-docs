@@ -25,7 +25,7 @@ To get started with AI agents, you will need to have a basic understanding of ar
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/quantstruct-bot/ai-agent-docs.git
+   git clone https://github.com/fauziridwan1709/ai-agent-docs.git
    cd ai-agent-docs
    ```
 2. Install the required dependencies:
@@ -40,7 +40,6 @@ After installing the necessary dependencies, you can start using the AI agents. 
 ## Examples
 
 Here are some examples of how to use AI agents:
-
 - Example 1: Basic AI Agent
 - Example 2: Advanced AI Agent with Reinforcement Learning
 
