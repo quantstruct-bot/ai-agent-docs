@@ -29,9 +29,7 @@ To get started with AI agents, you will need to have a basic understanding of ar
    cd ai-agent-docs
    ```
 2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+   - Please refer to the project documentation or package manager files (such as `package.json`, `yarn.lock`, or equivalent) for the correct installation process. This project does not use Python or `requirements.txt` for dependency management.
 
 ## Usage
 
