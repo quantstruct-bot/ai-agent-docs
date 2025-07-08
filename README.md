@@ -19,19 +19,42 @@ AI agents are autonomous entities that can perceive their environment and take a
 
 ## Getting Started
 
-To get started with AI agents, you will need to have a basic understanding of artificial intelligence principles and programming skills. Follow the instructions below to set up your environment.
+To get started with Sendbird AI Agent, follow the platform-specific instructions below:
 
-## Installation
+### 1. Clone the Repository
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/quantstruct-bot/ai-agent-docs.git
-   cd ai-agent-docs
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/fauziridwan1709/ai-agent-docs.git
+cd ai-agent-docs
+```
+
+### 2. Install Dependencies
+
+- For JavaScript/React projects:
+
+  ```bash
+  npm install
+  # or
+yarn install
+  # or
+pnpm install
+  ```
+
+- For Android/iOS projects:
+
+  - Refer to the respective `android/README.md` or `ios/README.md` for platform-specific setup instructions.
+
+### 3. Platform-specific Setup
+
+- **Web/React:** See [js/react/README.md](js/react/README.md) or [js/cdn/README.md](js/cdn/README.md)
+- **Android:** See [android/README.md](android/README.md)
+- **iOS:** See [ios/README.md](ios/README.md)
+
+> **Note:** There is no Python dependency for this project. Ignore any previous instructions about using `pip install -r requirements.txt`.
+
+---
+
+If you encounter any issues, please refer to the documentation in each platform's folder or open an issue in this repository.
 
 ## Usage
 
